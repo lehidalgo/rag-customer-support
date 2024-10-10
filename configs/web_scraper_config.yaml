@@ -1,5 +1,23 @@
 start_urls:
   - https://www.bbva.es/personas/productos/tarjetas/credito.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-maxima.html
   - https://www.bbva.es/personas/productos/tarjetas/tarjeta-credito-aqua.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-despues-oro.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-despues.html
+  - https://www.bbva.es/personas/productos/tarjetas/a-tu-ritmo.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-visa-platinum.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-repsol-mas-visa-credito.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-repsol-platinum.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-telepeaje-via-t.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-maxima.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-dorada-renfe.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-viajes.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-iberia-classic.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-iberia-icon.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-infinite.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-joven-despues.html
+
+
+
 user_agent: 'YourCustomUserAgent/1.0'
 delay: 1.5  # Seconds between requests

@@ -4,11 +4,11 @@ import logging
 import sys
 import os
 from typing import Optional
-from utils.config_loader import load_config
+from rag_customer_support.utils.config_loader import load_config
 
 
 def get_logger(
-    name: Optional[str] = None, config_path: str = "../configs/app_config.yaml"
+    name: Optional[str] = None, config_path: str = "configs/app_config.yaml"
 ) -> logging.Logger:
     """Creates and returns a configured logger.
 
