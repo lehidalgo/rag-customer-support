@@ -1,0 +1,5 @@
+start_urls:
+  - https://example.com/support/faq
+  - https://example.com/support/knowledge-base
+user_agent: 'YourCustomUserAgent/1.0'
+delay: 1.5  # Seconds between requests

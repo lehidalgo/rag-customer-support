@@ -1,0 +1,11 @@
+deployment:
+  docker_image_name: rag_customer_support
+  kubernetes_namespace: rag-system
+  replicas: 3
+  resources:
+    limits:
+      cpu: "2"
+      memory: "4Gi"
+    requests:
+      cpu: "1"
+      memory: "2Gi"
