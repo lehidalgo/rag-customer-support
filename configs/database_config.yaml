@@ -1,0 +1,8 @@
+database:
+  type: chromadb  # Options: 'chromadb', 'lancedb'
+  host: localhost
+  port: 5432
+  username: your_username
+  password: your_password
+  database_name: rag_db
+  collection_name: support_docs

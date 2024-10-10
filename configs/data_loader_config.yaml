@@ -1,0 +1,11 @@
+data_sources:
+  - type: local
+    directory: ./data/local_documents
+    file_extensions:
+      - .txt
+      - .md
+      - .pdf
+  - type: remote
+    urls:
+      - https://example.com/document1.txt
+      - https://example.com/document2.txt

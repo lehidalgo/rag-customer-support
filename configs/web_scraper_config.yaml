@@ -1,0 +1,5 @@
+start_urls:
+  - https://www.bbva.es/personas/productos/tarjetas/credito.html
+  - https://www.bbva.es/personas/productos/tarjetas/tarjeta-credito-aqua.html
+user_agent: 'YourCustomUserAgent/1.0'
+delay: 1.5  # Seconds between requests

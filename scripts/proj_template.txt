@@ -1,0 +1,51 @@
+├── configs/
+│   ├── database_config.yaml
+│   ├── embedding_config.yaml
+│   ├── lm_config.yaml
+│   ├── app_config.yaml
+│   └── deployment_config.yaml
+├── data_collection/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   └── web_scraper.py
+├── data_preprocessing/
+│   ├── __init__.py
+│   ├── data_cleaner.py
+│   └── data_chunker.py
+├── embeddings/
+│   ├── __init__.py
+│   └── embedding_generator.py
+├── vector_store/
+│   ├── __init__.py
+│   └── vector_database.py
+├── language_model/
+│   ├── __init__.py
+│   ├── model_loader.py
+│   └── prompt_engineer.py
+├── application/
+│   ├── __init__.py
+│   ├── backend.py
+│   └── frontend.py
+├── utils/
+│   ├── __init__.py
+│   ├── logger.py
+│   ├── config_loader.py
+│   └── helpers.py
+├── deployment/
+│   ├── Dockerfile
+│   ├── docker-compose.yaml
+│   ├── kubernetes_deployment.yaml
+│   └── requirements.txt
+├── tests/
+│   ├── __init__.py
+│   ├── test_data_collection.py
+│   ├── test_data_preprocessing.py
+│   ├── test_embeddings.py
+│   ├── test_vector_store.py
+│   ├── test_language_model.py
+│   └── test_application.py
+├── notebooks/
+│   ├── EDA.ipynb
+│   └── experiments.ipynb
+├── README.md
+└── .gitignore
