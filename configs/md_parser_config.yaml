@@ -1,0 +1,19 @@
+markdown_elements:
+  header:
+    pattern: '^(#{1,6})\s+(.*)'
+    description: "Header elements (e.g., #, ##)"
+  ordered_list:
+    pattern: '^(\d+\.)\s+(.*)'
+    description: "Ordered list items"
+  unordered_list:
+    pattern: '^([-*+])\s+(.*)'
+    description: "Unordered list items"
+  image:
+    pattern: '!\[.*?\]\((.*?)\)'
+    description: "Images"
+  link:
+    pattern: '\[.*?\]\((.*?)\)'
+    description: "Hyperlinks"
+  paragraph:
+    pattern: '^(?!#{1,6}\s|[-*+]\s|\d+\.\s|!\[.*?\]\(.*?\)|\[.*?\]\(.*?\)).+'
+    description: "Paragraph text"
